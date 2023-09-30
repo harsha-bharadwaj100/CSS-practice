@@ -1,0 +1,13 @@
+p{
+    border-style: dotted;
+    border-color: brown;
+    /* background-color: blueviolet; */
+    width: 300px;
+}
+
+h1{
+    border-style: dotted;
+    border-color: brown;
+    background-color: blueviolet;
+    width: fit-content;
+}
