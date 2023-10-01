@@ -1,34 +1,34 @@
-div.traffic-light{
-    height: min-content;
-    width: max-content;
-    padding: 5%;
-    border: 5px solid black;
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div.navbar{
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* justify-content: center; */
+    height: 60px;
 }
 
-div.Red{
-    background-color: red;
-    height: 50px;
-    width: 50px;
-    margin: 8% 8% 8% 8%;
-    border-radius: 50%;
+p.text{
+    color: darkgoldenrod;
+    margin-right: 25px;
+    font-size: 25px;
 }
 
-div.Yellow{
-    background-color: yellow;
-    height: 50px;
-    width: 50px;
-    margin: 8% 8% 8% 8%;
-    border-radius: 50%;
+a{
+    margin-right: 10px;
 }
 
-div.Green{
-    background-color: green;
-    height: 50px;
-    width: 50px;
-    margin: 8% 8% 8% 8%;
-    border-radius: 50%;
+p.cart{
+    margin-right: 200px;
+}
+
+p.contact{
+    margin-right: 30px;
+}
+
+button{
+    background-color: orange;
+    margin: 5px;
 }
