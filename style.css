@@ -3,8 +3,19 @@
     margin: 0;
 }
 
-div.big{
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("dahlia-red-blossom-bloom-60597.png");;
-    height: 1000px;
-    /* opacity: 0.3; */
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    padding: 0;
+    font-size: 10px;
 }
+
+#box2{
+    margin-left: 10%;
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    font-size: 2em;
+}
+/* em: for font-size it is relative to the parent and for width it is relative to itself */
