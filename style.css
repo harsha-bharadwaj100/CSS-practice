@@ -3,32 +3,11 @@
     margin: 0;
 }
 
-div.navbar{
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    height: 60px;
-}
-
-p.text{
-    color: darkgoldenrod;
-    margin-right: 25px;
-    font-size: 25px;
-}
-
-a{
-    margin-right: 10px;
-}
-
-p.cart{
-    margin-right: 200px;
-}
-
-p.contact{
-    margin-right: 30px;
+div.test{
+    display: inline;
+    background-color: pink;
 }
 
 button{
-    background-color: orange;
-    margin: 5px;
+    display: block;
 }
