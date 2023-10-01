@@ -16,13 +16,11 @@ div{
     width: 100px;
     height: 100px;
     margin: 20px auto;
-    border-style: inset;
-    border-color: indigo;
-    border-width: 15px;
+    border: 15px solid indigo;
     background-color: indianred;
-    border-radius: 25%;
-    display: flex;
+    /* border-radius: 25%; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10% ;
+    align-items: center; */
+    padding: 4% 4% 4% 4%;
 }
