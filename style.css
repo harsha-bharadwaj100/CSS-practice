@@ -3,11 +3,8 @@
     margin: 0;
 }
 
-div.test{
-    display: inline;
-    background-color: pink;
-}
-
-button{
-    display: block;
+div.big{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("dahlia-red-blossom-bloom-60597.png");;
+    height: 1000px;
+    /* opacity: 0.3; */
 }
