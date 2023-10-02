@@ -1,21 +1,41 @@
 *{
     padding: 0;
     margin: 0;
+    font-size: 18px;
+}
+/* body{
+    min-height: 100vh;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:aqua ;
+    display: inline-block;
 }
 
-#box1 {
-    height: 100px;
-    width: 200px;
-    background-color: green;
-    padding: 0;
-    font-size: 10px;
+#box1{
+    position: relative;
+    z-index: 2;
 }
 
 #box2{
-    margin-left: 10%;
-    height: 50px;
-    width: 30%;
-    background-color: yellow;
-    font-size: 2em;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
-/* em: for font-size it is relative to the parent and for width it is relative to itself */
+
+#box3{
+    position: sticky;
+    top: 10px;
+    left: 200px;
+    z-index: 1;
+}
+
+#box4{
+    position: fixed;
+    top: 0;
+    left: 20px;
+    z-index: 1;
+}
