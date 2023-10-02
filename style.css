@@ -8,18 +8,20 @@ div{
     flex-direction: row;
     height: 650px;
     width: 600px;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: center;
+    /* justify-items: flex-end; */
+    /* align-items: flex-start; */
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .boxes{
-    width: 100px;
+    width: 150px;
     height: 100px;
     border: 1px solid brown;
     margin: 0.1%;
 }
 
 #box2{
-    position: relative;
-    left: 20px;
+    height: 200px;
 }
