@@ -7,11 +7,11 @@ div{
     display: flex;
     flex-direction: row;
     height: 650px;
-    width: 600px;
+    width: 1500px;
     justify-content: center;
     /* justify-items: flex-end; */
-    /* align-items: flex-start; */
-    align-content: center;
+    align-items: flex-start;
+    /* align-content: center; */
     flex-wrap: wrap;
 }
 
@@ -24,4 +24,14 @@ div{
 
 #box2{
     height: 200px;
+    flex-grow: 2;
+}
+
+#box3{
+    height: 200px;
+    flex-grow: 1;
+}
+
+#box4{
+    flex-shrink: 1;
 }
