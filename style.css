@@ -1,32 +1,17 @@
-.navbar{
-    display: flex;
-    background-color: pink;
-    justify-content: space-evenly;
-}
-
-a{
-    text-decoration: none;
-    color: red;
-}
-
-ul{
-    list-style-type: none;
-    display: inline;
+div{
+    height: 50px;
+    width: 50px;
     background-color: pink;
 }
 
-.outer{
-    height: 400px;
-    width: 400px;
-    background-color: skyblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (max-width : 500px) {
+    div {
+        background-color: red;
+    }
 }
 
-.inner{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    align-self: flex-start;
+@media (min-width: 200px) and (max-width: 300px){
+    div{
+        background-color: blue;
+    }
 }
