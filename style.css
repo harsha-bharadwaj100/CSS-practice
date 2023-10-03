@@ -1,23 +1,24 @@
 div{
-    height: 50px;
-    width: 50px;
-    background-color: pink;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    color: white;
+    border: 2px solid black;
+    padding: 0.2rem;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0.5s; */
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+/* ShortCut
+transition: font-size 2s ease-in-out 0.2; */
+div:hover{
+    background-color: red;
+    color: blue;
+    font-size: 20px;
 }
 
-@media (max-width : 300px) {
-    div {
-        background-color: green;
-    }
-}
-
-@media (min-width: 400px) and (max-width: 600px){
-    div{
-        background-color: red;
-    }
-}
-
-@media (min-width: 600px){
-    div{
-        background-color: blue;
-    }
+div:active{
+    background-color: chartreuse;
 }
