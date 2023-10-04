@@ -9,14 +9,19 @@ div{
     position: relative;
     top: 100px;
     left: 100px;
-    animation: colorAnimate 1s 0s ease-in-out infinite alternate;
+    animation: colorAnimate 3s 0s ease-in-out infinite alternate;
 }
 /* ShortCut
 transition: font-size 2s ease-in-out 0.2; */
 
 @keyframes colorAnimate {
-    from {background-color: aquamarine;}
-    to {background-color: red;
+    0% {
+        background-color: aquamarine;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {background-color: red;
         left: 50px;
     color: white;}
 }
