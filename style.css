@@ -8,21 +8,19 @@
 .star{
     padding: 0.1em;
     padding-right: 0.1em;
+    color: grey;
 }
 
 .stared{
-    color: darkorange;
-    opacity: 1;
+    color: rgba(255, 94, 0, 0.8);
 }
 
 
 /* select the siblings of .star element that are not after it when hovered on it and the .rating */
 .rating:hover :not(.star:hover~.star, .stared){ 
-    color: orange;
-    opacity: 0.6;
+    color: rgba(255, 221, 0, 0.652);
 }
 
 .rating:hover :not(.star:hover~.star, :not(.stared)){ 
-    color: rgb(233, 72, 72);
-    opacity: 1;
+    color: rgb(241, 13, 43);
 }
