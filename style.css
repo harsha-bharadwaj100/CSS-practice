@@ -15,7 +15,14 @@
     opacity: 1;
 }
 
-.rating:hover :not(.star:hover~.star, .stared){ /* select the siblings of .star element that are not after it when hovered on it and the .rating */
+
+/* select the siblings of .star element that are not after it when hovered on it and the .rating */
+.rating:hover :not(.star:hover~.star, .stared){ 
     color: orange;
     opacity: 0.6;
+}
+
+.rating:hover :not(.star:hover~.star, :not(.stared)){ 
+    color: rgb(233, 72, 72);
+    opacity: 1;
 }
